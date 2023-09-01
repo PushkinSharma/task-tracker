@@ -1,0 +1,15 @@
+.task{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: aliceblue;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+}
+
+.task h3{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
