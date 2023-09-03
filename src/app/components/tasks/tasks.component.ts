@@ -17,6 +17,14 @@ export class TasksComponent {
     this.taskService.getTasks().subscribe((tasks) => this.tasks = tasks);
   }
 
+  deleteTask(task:Task){
+    this.taskService.
+    deleteTask(task).
+    subscribe(
+        () => {this.tasks = this.tasks.filter(t => t.id !== task.id)} //is a callback that will be executed when the observable emits a value (in this case, after the deletion is successful).
+      )
+  }
+
 
 
 }
