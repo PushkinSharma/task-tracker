@@ -3,8 +3,8 @@
     {
       "id": 1,
       "reminder": true,
-      "text": "Meeting at Gym",
-      "day": "May 6th at 1:30pm"
+      "text": "Gym",
+      "day": "May 5th at 1:30pm"
     },
     {
       "id": 2,
@@ -17,6 +17,13 @@
       "reminder": false,
       "text": "Food Shopping",
       "day": "May 7th at 12:30pm"
+    },
+    {
+      "id": 4,
+      "reminder": true,
+      "text": "Reading",
+      "day": "May 8th at 12:30pm"
     }
+
   ]
 }
